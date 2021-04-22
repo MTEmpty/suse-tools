@@ -1,0 +1,2 @@
+zypper --non-interactive --quiet addrepo --check --refresh -p 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman
+zypper --non-interactive dist-upgrade --allow-vendor-change --from packman
